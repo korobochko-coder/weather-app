@@ -1,0 +1,97 @@
+body {
+  font-family: "Poppins", sans-serif;
+}
+
+#whereAmI {
+  display: block;
+  margin: 0 auto;
+}
+
+#whereAmI:hover {
+  background-color: #93c9f9;
+}
+
+.weatherApp {
+  border: 1px solid black;
+  padding: 20px;
+  margin-top: 20px;
+}
+form {
+  margin-bottom: 50px;
+  margin-left: 30px;
+}
+
+.current,
+.location,
+.gradusy {
+  color: white;
+}
+
+i {
+  color: yellow;
+  font-size: xx-large;
+  padding: 20px 60px 10px;
+}
+
+.current {
+  background-color: #93c9f9;
+  border-radius: 50%;
+  padding: 70px 20px 10px 20px;
+  position: relative;
+  left: 30px;
+  font-weight: 500;
+  font-size: large;
+  z-index: -1;
+}
+
+#location {
+  background-color: #93c9f9;
+  border-radius: 50%;
+  padding: 80px 40px;
+  font-size: medium;
+  position: relative;
+  top: 100px;
+  z-index: -1;
+}
+
+#current-time {
+  position: relative;
+  top: 40px;
+}
+
+#temperature {
+  background-color: #93c9f9;
+  border-radius: 50%;
+  padding: 15px;
+  position: relative;
+  right: 30px;
+  font-size: xx-large;
+  font-weight: 500;
+}
+
+.info {
+  margin-top: 80px;
+  background-color: #42a5f5;
+  margin-top: 80px;
+  margin-left: 30px;
+  margin-right: 30px;
+  padding-top: 10px;
+  position: relative;
+}
+
+ul {
+  list-style: none;
+}
+
+.visual {
+  text-align: right;
+}
+.gradusy {
+  text-align: left;
+  padding-left: 0;
+}
+
+.day {
+  text-align: left;
+  padding-left: 50;
+}
